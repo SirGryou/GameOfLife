@@ -34,5 +34,25 @@ public class WorldView: UIView
     {
         super.init(frame: frame)
     }
+    
+    //Drawing some cells
+    public override func draw(_ rect: CGRect)
+    {
+        //Reference to the CGContext
+        let context = UIGraphicsGetCurrentContext()
+        context?.saveGState()
+        
+        //Passing messages thrue this context to draw for every cell that exists in the world
+        for cell in world.cells
+            {
+                let rect = CGRect(x: cell.x * cellSize, y: cell.y * cellSize, width: cellSize, height: cellSize)
+                let color = cell.state == .alive ? UIColor.blue.cgColor : UIColor.white.cgColor
+                context?.addRect(rect)
+                context?.setFillColor(color)
+                context?.fill(rect)
+                //Set the change we done so that they can appear in the view
+                context?.restoreGState()
+            }
+    }
 }
 

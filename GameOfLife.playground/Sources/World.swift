@@ -1,4 +1,5 @@
 import Foundation
+
 public class World
 {
     public var cells = [Cell]()
@@ -16,6 +17,8 @@ public class World
                     cells.append(cell)
                 }
             }
+        
+    
     }
 }
 
