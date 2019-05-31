@@ -3,12 +3,27 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=17&amp;CharacterRangeLoc=42&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=1&amp;StartingLineNumber=3&amp;Timestamp=580907359.9580801"
+         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=194&amp;EndingColumnNumber=0&amp;EndingLineNumber=11&amp;StartingColumnNumber=0&amp;StartingLineNumber=11&amp;Timestamp=581018259.702682"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=10&amp;EndingLineNumber=2&amp;StartingColumnNumber=5&amp;StartingLineNumber=2&amp;Timestamp=580907359.958576"
+         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=194&amp;EndingColumnNumber=0&amp;EndingLineNumber=11&amp;StartingColumnNumber=0&amp;StartingLineNumber=11&amp;Timestamp=581018259.7029639"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=194&amp;EndingColumnNumber=0&amp;EndingLineNumber=11&amp;StartingColumnNumber=0&amp;StartingLineNumber=11&amp;Timestamp=581018259.703235"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=4&amp;CharacterRangeLoc=94&amp;EndingColumnNumber=9&amp;EndingLineNumber=7&amp;StartingColumnNumber=5&amp;StartingLineNumber=7&amp;Timestamp=581018259.7034039"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Volumes/Macintosh%20HD%20/Xcode%20project/GameOfLifePlaygrounds/GameOfLife.playground#CharacterRangeLen=4&amp;CharacterRangeLoc=139&amp;EndingColumnNumber=5&amp;EndingLineNumber=8&amp;StartingColumnNumber=1&amp;StartingLineNumber=8&amp;Timestamp=581018259.703566"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

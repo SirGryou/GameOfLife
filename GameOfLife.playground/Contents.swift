@@ -1,4 +1,11 @@
 import UIKit
+import PlaygroundSupport
 
-let world = World(size: 2)
-dump(world.cells)
+/*
+ Here is the playground of my Game of life
+*/
+
+let view = WorldView(worldSize: 50, cellSize: 5)
+view .autoRun()
+PlaygroundPage.current.liveView = view
+

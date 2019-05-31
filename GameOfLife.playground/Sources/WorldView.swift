@@ -50,9 +50,23 @@ public class WorldView: UIView
                 context?.addRect(rect)
                 context?.setFillColor(color)
                 context?.fill(rect)
-                //Set the change we done so that they can appear in the view
-                context?.restoreGState()
             }
+        //Set the change we done so that they can appear in the view
+        context?.restoreGState()
+    }
+    //As we were using UIKit all interaction are touch based. We need to override touchesBegan so we can run our updateCells func
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        world.updateCells()
+        setNeedsDisplay()
+    }
+    //Allow the game run by itself
+    public func autoRun()
+    {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            self.world.updateCells()
+            self.setNeedsDisplay()
+            self.autoRun()
+        }
     }
 }
 
